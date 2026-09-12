@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Profile | Abdullah Mohammad Zobair</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">Zobair<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">CSE Student • Learner • Developer</p>
+          <h1>Hello, I'm <span>Abdullah Mohammad Zobair</span></h1>
+          <p class="hero-copy">
+            I am a Computer Science and Engineering student interested in building
+            simple, useful and responsive web experiences while continuously
+            improving my programming skills.
+          </p>
+          <div class="hero-buttons">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="profile-placeholder" role="img" aria-label="Profile image placeholder">
+            <span>AMZ</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>A little about me</h2>
+        </div>
+        <div class="about-box">
+          <p>
+            I enjoy learning programming fundamentals, creating web pages and
+            solving practical problems with code. My goal is to develop strong
+            technical foundations and turn ideas into clean, user-friendly projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>What I work with</h2>
+        </div>
+        <div class="cards skills-grid">
+          <article class="card"><div class="icon">01</div><h3>HTML5</h3><p>Semantic and well-structured web pages.</p></article>
+          <article class="card"><div class="icon">02</div><h3>CSS3</h3><p>Responsive layouts, styling and modern UI design.</p></article>
+          <article class="card"><div class="icon">03</div><h3>C / C++</h3><p>Programming fundamentals and problem solving.</p></article>
+          <article class="card"><div class="icon">04</div><h3>Git & GitHub</h3><p>Basic version control and project deployment.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Some of my work</h2>
+        </div>
+        <div class="cards projects-grid">
+          <article class="card project-card">
+            <span class="tag">Mini Project 01</span>
+            <h3>Personal Profile Page</h3>
+            <p>A responsive personal profile website built with semantic HTML5 and CSS3, using Flexbox/Grid and a mobile media query.</p>
+            <a href="#contact">Ask about project →</a>
+          </article>
+          <article class="card project-card">
+            <span class="tag">Mini Project 02</span>
+            <h3>Responsive Landing Page</h3>
+            <p>A simple landing page concept focused on clean structure, responsive design and accessible form elements.</p>
+            <a href="#contact">Ask about project →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Let's connect</h2>
+          </div>
+          <p class="contact-copy">Have a question or want to know more about my projects? Send me a message.</p>
+          <p class="email-line"><strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="your@email.com" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+          </div>
+          <button class="btn primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Abdullah Mohammad Zobair. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
