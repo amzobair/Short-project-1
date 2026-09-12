@@ -119,6 +119,14 @@ a {
   font-weight: 700;
   cursor: pointer;
 }
+.profile-img {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  border: 12px solid white;
+  box-shadow: 0 20px 50px rgba(44, 52, 80, 0.15);
+  object-fit: cover;
+}
 
 .primary {
   color: white;
@@ -159,6 +167,10 @@ a {
 
 .alt {
   background: #f8f9fc;
+}
+.profile-img {
+  width: 210px;
+  height: 210px;
 }
 
 .section-heading {
